@@ -6,6 +6,6 @@ This is a collection of components build with Tailwind CSS.
 
 - [x] Main Layout
 - [x] Sidebar utilities
-- [] Buttons
-- [] Cards
-- [] Forms
+- [ ] Buttons
+- [ ] Cards
+- [ ] Forms
