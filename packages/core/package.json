@@ -2,9 +2,10 @@
   "name": "@windy-components/core",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
   "scripts": {
-    "build": "esbuild src/index.ts --bundle --minify --platform=node --target=esnext --outfile=dist/index.js"
+    "build": "tsc -p tsconfig.json"
   },
   "keywords": [],
   "author": "",
