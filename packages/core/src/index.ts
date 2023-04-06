@@ -1,1 +1,1 @@
-export { Divider } from "./components/Divider";
+export * from "./components";
