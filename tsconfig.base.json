@@ -1,12 +1,13 @@
 {
   "compilerOptions": {
-    "target": "ESNext",
-    "module": "ESNext",
+    "target": "ES5",
+    "module": "CommonJS",
     "moduleResolution": "node",
-    "resolveJsonModule": true,
     "forceConsistentCasingInFileNames": true,
     "esModuleInterop": true,
     "skipLibCheck": true,
+    "declaration": true,
     "baseUrl": "."
-  }
+  },
+  "exclude": ["node_modules", "dist"]
 }
